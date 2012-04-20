@@ -1,0 +1,22 @@
+﻿                      PATH COUNTING (II)
+In a country there is a quantum city which is highly developed. It is very much organized. All the places are located at integer coordinate points. There is no place with non integral coordinate points ( remember quantum ). Moreover a person standing at coordinate point (i,j) can only move to points (i,j+1), (i+1,j+1) and (i+1,j).
+Now a person is standing at (0,0). Your task is to calculate the number of different paths he can choose to reach (i,j).
+Input:
+First line contains t, ---> number of test cases.
+Next t lines follow each with two integers separated by a space depicting the destination coordinate.
+Output:
+Print t lines corresponding to each test case. Since the answer might be quite large, print your answer modulus of 1000000007.
+Sample input:
+3
+2 2
+3 2
+5 5
+Sample output:
+13
+25
+1683
+Constraints:
+t<=2000
+coordinates are from (0,0) to (1999,1999).
+Time Limit:
+2 sec
